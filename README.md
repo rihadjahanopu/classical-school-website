@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏫 Greenwood High School | Excellence in Education
 
-## Getting Started
+A modern, high-performance, and visually stunning educational website built with **Next.js 15+**, **Tailwind CSS v4**, and **Framer Motion**. This project showcases academic excellence through a premium digital experience.
 
-First, run the development server:
+![Greenwood High Banner](public/images/hero.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Key Features
+
+- **🚀 Performance First**: Built with Next.js App Router for optimal speed and SEO.
+- **🎨 Modern Design**: Implements a "Glassmorphism" aesthetic with vibrant colors and premium typography.
+- **📱 Fully Responsive**: Carefully crafted to look perfect on everything from mobile phones to large 4K displays.
+- **🎭 Smooth Animations**: Utilizes Framer Motion for subtle micro-interactions and scroll-triggered animations.
+- **🖼️ Interactive Gallery**: A modern image grid with a custom lightbox experience.
+- **👤 Faculty Showcase**: Professional cards featuring the dedicated mentors at Greenwood High.
+- **📩 Contact System**: Integrated contact form with real-time validation and submission states.
+
+## 🛠️ Technology Stack
+
+- **Core**: [Next.js 15+](https://nextjs.org/) (App Router, TypeScript)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+- **Fonts**: [Google Fonts](https://fonts.google.com/) (Outfit & Inter)
+
+## 🏁 Getting Started
+
+### Prerequisites
+
+- Node.js 18.17.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/classical-school-website.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📁 Project Structure
+
+```text
+src/
+├── app/              # App router (Layout, Page, Globals)
+├── components/       # Modular UI components (Navbar, Hero, etc.)
+└── public/           # Static assets (Images, SVGs)
+    └── images/       # High-quality campus and faculty photos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Principles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Primary Color**: `#2c5530` (Forest Green - Symbolizing Growth & Stability)
+- **Accent Color**: `#ffd700` (Gold - Symbolizing Excellence & Achievement)
+- **Typography**: `Outfit` for headings and `Inter` for body text to ensure readability and a premium feel.
+- **Shadows & Blurs**: Custom `shadow-premium` and `backdrop-blur-xl` for depth and modern feel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## 📧 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Greenwood High School Admissions Office**
+📍 123 Education Drive, Greenwood, CA 90210
+📞 (555) 123-4567
+✉️ info@greenwoodhigh.edu
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by Antigravity AI
