@@ -81,4 +81,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Built with ❤️ by Antigravity AI
+Built with ❤️ by Rihad Jahan Opu
