@@ -41,7 +41,7 @@ const Gallery = () => {
   const [selectedImg, setSelectedImg] = useState<typeof images[0] | null>(null);
 
   return (
-    <section id="gallery" className="section-padding bg-white">
+    <section id="gallery" className="section-padding bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.h2 

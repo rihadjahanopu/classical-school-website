@@ -34,12 +34,18 @@
 	--text-muted: #6c757d;
 }
 
+html,
 body {
 	background: var(--background);
 	color: var(--foreground);
 	font-family: var(--font-outfit), sans-serif;
 	overflow-x: hidden;
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
 	scroll-behavior: smooth;
+	scrollbar-gutter: stable;
 }
 
 .section-padding {

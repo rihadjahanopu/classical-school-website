@@ -29,7 +29,7 @@ const programs = [
 
 const Programs = () => {
   return (
-    <section id="programs" className="section-padding bg-white">
+    <section id="programs" className="section-padding bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.h2 

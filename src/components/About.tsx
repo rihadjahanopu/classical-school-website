@@ -14,7 +14,7 @@ const About = () => {
 	return (
 		<section
 			id="about"
-			className="section-padding bg-slate-50">
+			className="section-padding bg-slate-50 overflow-hidden">
 			<div className="max-w-7xl mx-auto px-6">
 				<div className="grid lg:grid-cols-2 gap-16 items-center">
 					{/* Image side */}
