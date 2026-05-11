@@ -4,6 +4,10 @@ A modern, high-performance, and visually stunning educational website built with
 
 ![Greenwood High Banner](public/images/hero.png)
 
+## 🚀 Live Demo
+
+Check out the live site: [Classical School Website](https://classical-school-website.vercel.app/)
+
 ## ✨ Key Features
 
 - **🚀 Performance First**: Built with Next.js App Router for optimal speed and SEO.
